@@ -10,68 +10,111 @@
       type="text/css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
   </head>
   <body class="bg-gray-100 h-screen">
-    <header class="container mx-auto bg-white flex justify-between items-center p-6 rounded-2xl">
-        <div class="flex gap-5 items-center">
-            <img src="/assets/logo.png" alt="">
-            <h2 class="text-2xl">Dev<span class="font-bold">Board</span></h2>
-        </div>
+    <header
+      class="container mx-auto bg-white flex justify-between items-center p-6 rounded-2xl"
+    >
+      <div class="flex gap-5 items-center">
+        <img src="/assets/logo.png" alt="" />
+        <h2 class="text-2xl">Dev<span class="font-bold">Board</span></h2>
+      </div>
 
-        <button class="btn btn-primary">Back to Desk</button>
+      <button class="btn btn-primary">Back to Desk</button>
     </header>
 
     <main class="container mx-auto">
-        <h3 class="text-2xl font-bold text-center mt-4">Blogs</h3>
-        <!-- Question 1 -->
-        <div class="bg-white mt-4">
-            <div class="rounded-xl">
-                <div class="border-b border-dashed border-gray-300">
-                    <h3 class="p-6 text-xl font-bold">Question-1: What are the different ways to select an element in DOM?</h3>
-                </div>
-                <p class="p-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, architecto quos! Eos ducimus laborum dolorum nemo blanditiis omnis incidunt alias?</p>
-            </div>
+      <h3 class="text-2xl font-bold text-center mt-4">Blogs</h3>
+      <!-- Question 1 -->
+      <div class="bg-white mt-4">
+        <div class="rounded-xl">
+          <div class="border-b border-dashed border-gray-300">
+            <h3 class="p-6 text-xl font-bold">
+              Question-1: What are the different ways to select an element in
+              DOM?
+            </h3>
+          </div>
+          <p class="p-6">
+            There are several ways to select an element form the DOM.
+            1.<span class="font-semibold">getElementById </span> to select element by a specific id. It will
+            return only one element. 2.<span class="font-semibold">getElementByClassName</span> used to select all
+            element of a particular class. It returns an HTMLCollection which is
+            a list of element. 3.<span class="font-semibold">getElementByTagName</span> used to select elements
+            with specific tag names. It returns an HTMLCollection. 4.<span class="font-semibold">querySelector</span>
+             it works like a css selector and returns the first
+            matching element. 5.<span class="font-semibold">querySelectorAll</span> this is similar to
+            querySelector,but it will return a list of all matching element.
+          </p>
         </div>
+      </div>
 
-        <!-- Question 2 -->
-        <div class="bg-white mt-4">
-            <div class="rounded-xl">
-                <div class="border-b border-dashed border-gray-300">
-                    <h3 class="p-6 text-xl font-bold">What is the different between innerText,innerHTML and textContent?</h3>
-                </div>
-                <p class="p-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, architecto quos! Eos ducimus laborum dolorum nemo blanditiis omnis incidunt alias?</p>
-            </div>
+      <!-- Question 2 -->
+      <div class="bg-white mt-4">
+        <div class="rounded-xl">
+          <div class="border-b border-dashed border-gray-300">
+            <h3 class="p-6 text-xl font-bold">
+              What is the different between innerText,innerHTML and textContent?
+            </h3>
+          </div>
+          <p class="p-6">
+            innerText, innerHTML, and textContent—These three properties are used to get or set text from the DOM. But there are some important differences between them.
+            1.It returns or sets only visible text. It won't return the Hidden part, because it works like CSS and only returns visible text.
+            2.It returns or sets the entire content including HTML. It can also add new HTML tags
+            3. It returns the entire text, even including hidden display: none elements.
+        </p>
         </div>
+      </div>
 
-        <!-- Question 3 -->
-        <div class="bg-white mt-4">
-            <div class="rounded-xl">
-                <div class="border-b border-dashed border-gray-300">
-                    <h3 class="p-6 text-xl font-bold">What is event delegation in the DOM?</h3>
-                </div>
-                <p class="p-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, architecto quos! Eos ducimus laborum dolorum nemo blanditiis omnis incidunt alias?</p>
-            </div>
+      <!-- Question 3 -->
+      <div class="bg-white mt-4">
+        <div class="rounded-xl">
+          <div class="border-b border-dashed border-gray-300">
+            <h3 class="p-6 text-xl font-bold">
+              What is event delegation in the DOM?
+            </h3>
+          </div>
+          <p class="p-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+            architecto quos! Eos ducimus laborum dolorum nemo blanditiis omnis
+            incidunt alias?
+          </p>
         </div>
+      </div>
 
-        <!-- Question 4 -->
-        <div class="bg-white mt-4">
-            <div class="rounded-xl">
-                <div class="border-b border-dashed border-gray-300">
-                    <h3 class="p-6 text-xl font-bold">Question-1: What are the different ways to select an element in DOM?</h3>
-                </div>
-                <p class="p-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, architecto quos! Eos ducimus laborum dolorum nemo blanditiis omnis incidunt alias?</p>
-            </div>
+      <!-- Question 4 -->
+      <div class="bg-white mt-4">
+        <div class="rounded-xl">
+          <div class="border-b border-dashed border-gray-300">
+            <h3 class="p-6 text-xl font-bold">
+              Question-1: What are the different ways to select an element in
+              DOM?
+            </h3>
+          </div>
+          <p class="p-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+            architecto quos! Eos ducimus laborum dolorum nemo blanditiis omnis
+            incidunt alias?
+          </p>
         </div>
+      </div>
 
-        <!-- Question 5 -->
-        <div class="bg-white mt-4">
-            <div class="rounded-xl">
-                <div class="border-b border-dashed border-gray-300">
-                    <h3 class="p-6 text-xl font-bold">Question-1: What are the different ways to select an element in DOM?</h3>
-                </div>
-                <p class="p-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, architecto quos! Eos ducimus laborum dolorum nemo blanditiis omnis incidunt alias?</p>
-            </div>
+      <!-- Question 5 -->
+      <div class="bg-white mt-4">
+        <div class="rounded-xl">
+          <div class="border-b border-dashed border-gray-300">
+            <h3 class="p-6 text-xl font-bold">
+              Question-1: What are the different ways to select an element in
+              DOM?
+            </h3>
+          </div>
+          <p class="p-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+            architecto quos! Eos ducimus laborum dolorum nemo blanditiis omnis
+            incidunt alias?
+          </p>
         </div>
+      </div>
     </main>
   </body>
 </html>

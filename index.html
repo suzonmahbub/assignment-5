@@ -22,7 +22,7 @@
       }
     </style>
   </head>
-  <body class="bg-gray-100 h-screen">
+  <body class="bg-gray-100 h-100vh">
     <div class="container mx-auto pt-6">
       <header
         class="flex justify-between items-center bg-white rounded-2xl p-6"
@@ -40,11 +40,11 @@
             <p><span id="totalTask" class="text-3xl font-bold">23</span></p>
           </div>
 
-          <div
-            class="w-16 h-16 rounded-full bg-gray-100 flex justify-center items-center"
+          <button onclick="changeBg()"
+            class="w-16 h-16 rounded-full bg-gray-100 flex justify-center items-center cursor-pointer"
           >
-            <img src="assets/theme-btn.png" alt="" />
-          </div>
+            <img src="assets/theme-btn.png" alt="theme" />
+          </button>
         </div>
       </header>
 
@@ -266,7 +266,9 @@
             </div>
           </div>
 
-          <div id="history" class="p-6"></div>
+          <div id="history" class="p-4">
+            
+          </div>
         </div>
       </main>
     </div>

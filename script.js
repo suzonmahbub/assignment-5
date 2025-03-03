@@ -22,14 +22,13 @@ function completeTask(id, text) {
     if (text) {
         history.push(text)
     }
-    console.log(history)
 
     count++
     if (count === 6) {
         alert('congrates!!! You have completed all the current task')
     }
     for (let i = 0; history.length > i; i++) {
-        history1.innerHTML = ` <p>${history[i]}</p>`
+        history1.innerHTML = ` <p> ${'You have complete the task'} ${history[i]} ${new Date().toDateString().slice(3)}</p>`
     }
 
 

@@ -26,7 +26,7 @@ function completeTask(id, text) {
 
     count++
     if (count === 6) {
-        alert('all completed done')
+        alert('congrates!!! You have completed all the current task')
     }
     for (let i = 0; history.length > i; i++) {
         history1.innerHTML = ` <p>${history[i]}</p>`

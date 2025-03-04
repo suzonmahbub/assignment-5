@@ -10,18 +10,19 @@
       type="text/css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
   </head>
   <body class="bg-gray-100 h-100vh">
-    <header
-      class="container mx-auto bg-white flex justify-between items-center p-6 rounded-2xl"
-    >
-      <div class="flex gap-5 items-center">
-        <img src="./assets/logo.png" alt="" />
-        <h2 class="text-2xl">Dev<span class="font-bold">Board</span></h2>
-      </div>
+    <header class="pt-6">
+      <div
+        class="container mx-auto bg-white flex justify-between items-center p-6 rounded-2xl"
+      >
+        <div class="flex gap-5 items-center">
+          <img src="./assets/logo.png" alt="" />
+          <h2 class="text-2xl">Dev<span class="font-bold">Board</span></h2>
+        </div>
 
-      <a href="index.html" class="btn btn-primary">Back to Desk</a>
+        <a href="index.html" class="btn btn-primary">Back to Desk</a>
+      </div>
     </header>
 
     <main class="container mx-auto">
@@ -36,15 +37,23 @@
             </h3>
           </div>
           <p class="p-6">
-            There are several ways to select an element form the DOM.
-            1.<span class="font-semibold">getElementById </span> to select element by a specific id. It will
-            return only one element. 2.<span class="font-semibold">getElementByClassName</span> used to select all
-            element of a particular class. It returns an HTMLCollection which is
-            a list of element. 3.<span class="font-semibold">getElementByTagName</span> used to select elements
-            with specific tag names. It returns an HTMLCollection. 4.<span class="font-semibold">querySelector</span>
-             it works like a css selector and returns the first
-            matching element. 5.<span class="font-semibold">querySelectorAll</span> this is similar to
-            querySelector,but it will return a list of all matching element.
+            There are several ways to select an element form the DOM. 1.<span
+              class="font-semibold"
+              >getElementById
+            </span>
+            to select element by a specific id. It will return only one element.
+            2.<span class="font-semibold">getElementByClassName</span> used to
+            select all element of a particular class. It returns an
+            HTMLCollection which is a list of element. 3.<span
+              class="font-semibold"
+              >getElementByTagName</span
+            >
+            used to select elements with specific tag names. It returns an
+            HTMLCollection. 4.<span class="font-semibold">querySelector</span>
+            it works like a css selector and returns the first matching element.
+            5.<span class="font-semibold">querySelectorAll</span> this is
+            similar to querySelector,but it will return a list of all matching
+            element.
           </p>
         </div>
       </div>
@@ -54,15 +63,19 @@
         <div class="rounded-xl">
           <div class="border-b border-dashed border-gray-300">
             <h3 class="p-6 text-xl font-bold">
-              What is the different between innerText,innerHTML and textContent?
+              Question-2: What is the different between innerText,innerHTML and
+              textContent?
             </h3>
           </div>
           <p class="p-6">
-            innerText, innerHTML, and textContent—These three properties are used to get or set text from the DOM. But there are some important differences between them.
-            1.It returns or sets only visible text. It won't return the Hidden part, because it works like CSS and only returns visible text.
-            2.It returns or sets the entire content including HTML. It can also add new HTML tags
-            3. It returns the entire text, even including hidden display: none elements.
-        </p>
+            innerText, innerHTML, and textContent—These three properties are
+            used to get or set text from the DOM. But there are some important
+            differences between them. 1.It returns or sets only visible text. It
+            won't return the Hidden part, because it works like CSS and only
+            returns visible text. 2.It returns or sets the entire content
+            including HTML. It can also add new HTML tags 3. It returns the
+            entire text, even including hidden display: none elements.
+          </p>
         </div>
       </div>
 
@@ -71,13 +84,14 @@
         <div class="rounded-xl">
           <div class="border-b border-dashed border-gray-300">
             <h3 class="p-6 text-xl font-bold">
-              What is event delegation in the DOM?
+              Question-3: What is event delegation in the DOM?
             </h3>
           </div>
           <p class="p-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
-            architecto quos! Eos ducimus laborum dolorum nemo blanditiis omnis
-            incidunt alias?
+            Event Delegation is a pattern based upon the concept of Event
+            Bubbling. It is an event-handling pattern that allows you to handle
+            events at a higher level in the DOM tree other than the level where
+            the event was first received.
           </p>
         </div>
       </div>
@@ -87,14 +101,15 @@
         <div class="rounded-xl">
           <div class="border-b border-dashed border-gray-300">
             <h3 class="p-6 text-xl font-bold">
-              Question-1: What are the different ways to select an element in
-              DOM?
+              Question-4: What is event bubbling in the DOM?
             </h3>
           </div>
           <p class="p-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
-            architecto quos! Eos ducimus laborum dolorum nemo blanditiis omnis
-            incidunt alias?
+            Event bubbling directs an event to its target. It works like this:
+            When an element (like a button) is clicked, an event is directed to
+            the element. If an event handler is set for the element, the event
+            handler is triggered. Then the event "bubbles up" to the elements
+            parent.
           </p>
         </div>
       </div>
@@ -104,14 +119,15 @@
         <div class="rounded-xl">
           <div class="border-b border-dashed border-gray-300">
             <h3 class="p-6 text-xl font-bold">
-              Question-1: What are the different ways to select an element in
-              DOM?
+              Question-5: How do you create, add , and remove elements using
+              JavaScript?
             </h3>
           </div>
           <p class="p-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
-            architecto quos! Eos ducimus laborum dolorum nemo blanditiis omnis
-            incidunt alias?
+            we are using the createElement() method to dynamically add a new
+            HTML tag and the removeChild method to remove it. This approach
+            provides more control over the newly created tag and allows for
+            efficient addition and removal of the tag from the DOM.
           </p>
         </div>
       </div>
